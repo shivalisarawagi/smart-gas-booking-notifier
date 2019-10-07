@@ -23,7 +23,7 @@ def call_number(phnum):
     ser.close()
 
 call_number("9666261963")
-#print config_arr["phonenum"]+"dev"
-#cust_num=str(config_arr["phonenum"].replace("\n",""));
-#print cust_num + "dora"
-#call_number(cust_num) 
+print config_arr["phonenum"]+"dev"
+cust_num=str(config_arr["phonenum"].replace("\n",""));
+print cust_num + "dora"
+call_number(cust_num) 
